@@ -1,8 +1,8 @@
 {
   "format": "zia-model-catalog",
   "schemaVersion": 1,
-  "version": 2,
-  "publishedAt": "2026-10-29T15:05:53.510Z",
+  "version": 3,
+  "publishedAt": "2026-11-01T00:00:00.000Z",
   "models": [
     {
       "id": "qwen-2-5-0-5b",
@@ -60,6 +60,44 @@
       "addedAt": "2026-10-28T00:00:00.000Z",
       "validated": false,
       "expectedDigest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e"
+    },
+    {
+      "id": "llama-3-2-3b",
+      "name": "llama3.2:3b",
+      "displayName": "Llama 3.2 · 3B",
+      "description": "Compact text candidate for conversation and rewriting. Hardware suitability is separate from answer quality.",
+      "size": 2019393189,
+      "memory": 5905580032,
+      "tasks": ["Chat", "Writing", "Study", "Planning"],
+      "license": "Llama 3.2 Community License",
+      "expectedDigest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "context": 4096,
+      "capabilities": ["chat"],
+      "evaluatedLanguages": [],
+      "source": "https://ollama.com/library/llama3.2:3b",
+      "minRuntime": "0.40.12",
+      "minApp": "0.9.0",
+      "addedAt": "2026-11-01T00:00:00.000Z",
+      "validated": false
+    },
+    {
+      "id": "llama-3-1-8b",
+      "name": "llama3.1:8b",
+      "displayName": "Llama 3.1 · 8B",
+      "description": "General text candidate with a larger memory footprint. Run a local speed test and review generated facts.",
+      "size": 4920753328,
+      "memory": 10200547328,
+      "tasks": ["Chat", "Writing", "Study", "Planning", "Documents"],
+      "license": "Llama 3.1 Community License",
+      "expectedDigest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "context": 4096,
+      "capabilities": ["chat"],
+      "evaluatedLanguages": [],
+      "source": "https://ollama.com/library/llama3.1:8b",
+      "minRuntime": "0.40.12",
+      "minApp": "0.9.0",
+      "addedAt": "2026-11-01T00:00:00.000Z",
+      "validated": false
     }
   ]
 }
